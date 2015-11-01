@@ -1,0 +1,27 @@
+{
+  "properties": [
+    {
+      "name": "stormpath.api-key.id",
+      "type": "java.lang.String",
+      "sourceType": "com.genericmethod.stormpathplayground.web.config.StormpathPlaygroundProperties$ApiKey"
+    },
+    {
+      "name": "stormpath.api-key.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.genericmethod.stormpathplayground.web.config.StormpathPlaygroundProperties$ApiKey"
+    }
+  ],
+  "groups": [
+    {
+      "name": "stormpath",
+      "type": "com.genericmethod.stormpathplayground.web.config.StormpathPlaygroundProperties",
+      "sourceType": "com.genericmethod.stormpathplayground.web.config.StormpathPlaygroundProperties"
+    },
+    {
+      "name": "stormpath.api-key",
+      "type": "com.genericmethod.stormpathplayground.web.config.StormpathPlaygroundProperties$ApiKey",
+      "sourceType": "com.genericmethod.stormpathplayground.web.config.StormpathPlaygroundProperties",
+      "sourceMethod": "getApiKey()"
+    }
+  ]
+}

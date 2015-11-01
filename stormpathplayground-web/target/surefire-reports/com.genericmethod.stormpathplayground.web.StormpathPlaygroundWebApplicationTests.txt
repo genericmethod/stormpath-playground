@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.666 sec <<< FAILURE! - in com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests
+testCreateAccount(com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests)  Time elapsed: 0.2 sec  <<< ERROR!
+com.stormpath.sdk.resource.ResourceException: HTTP 409, Stormpath 2001 (http://docs.stormpath.com/errors/2001): Account with that email already exists.  Please choose another email.
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.execute(DefaultDataStore.java:474)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.access$000(DefaultDataStore.java:67)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore$2.filter(DefaultDataStore.java:372)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:47)
+	at com.stormpath.sdk.impl.ds.ProviderAccountResultFilter.filter(ProviderAccountResultFilter.java:31)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.api.ApiKeyQueryFilter.filter(ApiKeyQueryFilter.java:74)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.cache.WriteCacheFilter.filter(WriteCacheFilter.java:78)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.cache.ReadCacheFilter.filter(ReadCacheFilter.java:61)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.api.DecryptApiKeySecretFilter.filter(DecryptApiKeySecretFilter.java:62)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.EnlistmentFilter.filter(EnlistmentFilter.java:42)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.save(DefaultDataStore.java:393)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.create(DefaultDataStore.java:299)
+	at com.stormpath.sdk.impl.application.DefaultApplication.createAccount(DefaultApplication.java:364)
+	at com.stormpath.sdk.impl.application.DefaultApplication.createAccount(DefaultApplication.java:347)
+	at com.genericmethod.stormpathplayground.web.service.UserAccountService.create(UserAccountService.java:24)
+	at com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests.testCreateAccount(StormpathPlaygroundWebApplicationTests.java:37)
+

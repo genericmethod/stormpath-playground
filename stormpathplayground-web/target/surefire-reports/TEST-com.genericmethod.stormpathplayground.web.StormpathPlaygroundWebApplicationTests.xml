@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests" time="0.427" tests="3" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/cfarrugia/work/stormpathplayground"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/cfarrugia/work/stormpathplayground"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/8v/c3d3kff13rv712zpgftfmq900000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/cfarrugia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/cfarrugia"/>
+    <property name="user.timezone" value="Europe/Rome"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="cfarrugia"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="java.ext.dirs" value="/Users/cfarrugia/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_79.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testCreateAccount" classname="com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests" time="0.2">
+    <error message="HTTP 409, Stormpath 2001 (http://docs.stormpath.com/errors/2001): Account with that email already exists.  Please choose another email." type="com.stormpath.sdk.resource.ResourceException">com.stormpath.sdk.resource.ResourceException: HTTP 409, Stormpath 2001 (http://docs.stormpath.com/errors/2001): Account with that email already exists.  Please choose another email.
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.execute(DefaultDataStore.java:474)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.access$000(DefaultDataStore.java:67)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore$2.filter(DefaultDataStore.java:372)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:47)
+	at com.stormpath.sdk.impl.ds.ProviderAccountResultFilter.filter(ProviderAccountResultFilter.java:31)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.api.ApiKeyQueryFilter.filter(ApiKeyQueryFilter.java:74)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.cache.WriteCacheFilter.filter(WriteCacheFilter.java:78)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.cache.ReadCacheFilter.filter(ReadCacheFilter.java:61)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.api.DecryptApiKeySecretFilter.filter(DecryptApiKeySecretFilter.java:62)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.EnlistmentFilter.filter(EnlistmentFilter.java:42)
+	at com.stormpath.sdk.impl.ds.DefaultFilterChain.filter(DefaultFilterChain.java:52)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.save(DefaultDataStore.java:393)
+	at com.stormpath.sdk.impl.ds.DefaultDataStore.create(DefaultDataStore.java:299)
+	at com.stormpath.sdk.impl.application.DefaultApplication.createAccount(DefaultApplication.java:364)
+	at com.stormpath.sdk.impl.application.DefaultApplication.createAccount(DefaultApplication.java:347)
+	at com.genericmethod.stormpathplayground.web.service.UserAccountService.create(UserAccountService.java:24)
+	at com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests.testCreateAccount(StormpathPlaygroundWebApplicationTests.java:37)
+</error>
+    <system-out><![CDATA[14:56:23.999 [main] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.013 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+14:56:24.039 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@50b041f3 declaringClass = 'com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests', classes = '{class com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplication}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+14:56:24.049 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.054 [main] DEBUG o.s.t.c.w.WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]: using defaults.
+14:56:24.065 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:56:24.070 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+14:56:24.077 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+14:56:24.079 [main] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3015b303, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@609ba29e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9d1649f]
+14:56:24.081 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.082 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.083 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.083 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.086 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.086 [main] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests]
+14:56:24.167 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:56:24.169 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:56:24.170 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:56:24.172 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.7.RELEASE)
+
+2015-11-01 14:56:24.475  INFO 978 --- [           main] w.StormpathPlaygroundWebApplicationTests : Starting StormpathPlaygroundWebApplicationTests on chriss-mbp.cust.hyperoptic.com with PID 978 (/Users/cfarrugia/work/stormpathplayground/stormpathplayground-web/target/test-classes started by cfarrugia in /Users/cfarrugia/work/stormpathplayground/stormpathplayground-web)
+2015-11-01 14:56:24.550  INFO 978 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7bb8597a: startup date [Sun Nov 01 14:56:24 CET 2015]; root of context hierarchy
+2015-11-01 14:56:25.096  INFO 978 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2015-11-01 14:56:28.855  INFO 978 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@7bb8597a: startup date [Sun Nov 01 14:56:24 CET 2015]; root of context hierarchy
+2015-11-01 14:56:28.916  INFO 978 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2015-11-01 14:56:28.916  INFO 978 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2015-11-01 14:56:28.940  INFO 978 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-11-01 14:56:28.940  INFO 978 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-11-01 14:56:28.974  INFO 978 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-11-01 14:56:29.026  INFO 978 --- [           main] w.StormpathPlaygroundWebApplicationTests : Started StormpathPlaygroundWebApplicationTests in 4.837 seconds (JVM running for 5.352)
+]]></system-out>
+  </testcase>
+  <testcase name="testAuthenticateAccount" classname="com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests" time="0.116"/>
+  <testcase name="testFindAccount" classname="com.genericmethod.stormpathplayground.web.StormpathPlaygroundWebApplicationTests" time="0.111"/>
+</testsuite>
